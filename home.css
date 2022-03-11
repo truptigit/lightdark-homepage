@@ -1,0 +1,351 @@
+
+header{
+  height:40px;
+  background-color:#e09c83
+}
+
+#icon{
+  float:left
+}
+
+#social{
+  float:right
+}
+
+.slogo{
+  height: 40px;
+  width: 40px;
+}
+#heading{
+  text-align:center;
+}
+
+.logo {
+  text-align: center;
+  font-size: 70px;
+  color: red;
+  background: white;
+  width: 105px;
+  height: 113px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  margin-left: 43%;
+  font-family: Poppins;
+  font-weight: bold;
+  animation:revolve 10s infinite;
+}
+
+@keyframes revolve {
+    0% {transform: rotate(30deg)}
+    25% {transform: rotate(90deg)}
+    50% {transform: rotate(180deg)}
+    75% {transform: rotate(270deg)}
+    100% {transform: rotate(360deg)}
+}
+
+.headings {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  position: relative;
+  margin: auto;
+  font-size: 36px;
+  top: 140px;
+}
+
+.locationSelector {
+  position: relative;
+  top: 160px;
+  margin-left: 27.5%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.locationDropdown {
+  height: 40px;
+  width: 245px;
+  color: gray;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  margin-right: 20px;
+  margin-bottom: 35px;
+  float: left;
+}
+
+.restaurantsinput {
+  height: 40px;
+  width: 310px;
+  color: gray;
+  border: none;
+  border-radius: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  float: left;
+  padding-left: 30px;
+}
+
+.search {
+  position: absolute !important;
+  left: 275px;
+  margin: 2% 0px;
+}
+
+.item> img{
+  height: 15px; 
+  width: 100%
+}
+
+.quicksearch {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 22%;
+  
+}
+
+.box{
+  margin-top: 29%;
+}
+.quicksearchHeading {
+  text-align: left;
+  color: #192f60;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 35px;
+}
+
+.quicksearchSubHeading {
+  text-align: left;
+  color: gray;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 35px;
+}
+
+.tileContainer {
+  height: 150px;
+  width: 350px;
+  background-color: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  box-shadow: 0 3px 6px gray;
+  float: left;
+  animation: dance 10s infinite
+}
+
+.tileContainer:hover { 
+transform:scale(1.1)
+
+}
+
+@keyframes dance{
+ 0% {transform: rotate(-5deg)}
+ 25% {transform: rotate(0deg)}
+ 50% {transform: rotate(5deg)}
+ 60% {transform: scale(1.1)}
+ 75% {transform: rotate(0deg)}
+ 100% {transform: rotate(-5deg)}
+
+}
+
+
+.tileComponent1 {
+  width: 45%;
+  float: left;
+}
+
+.tileComponent2 {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+
+.componentHeading {
+  text-align: left;
+  color: #192f60;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.componentSubHeading {
+  text-align: left;
+  color: gray;
+  font-size: 18px;
+}
+
+.qs-block {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.marg-bot {
+  margin-bottom: 10px;
+}
+
+.heading {
+  width: 88px;
+  height: 25px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+@media only screen and (max-width: 600px) {
+  .restaurantsinput {
+    height: 40px;
+    width: 245px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    float: left;
+  }
+  .logo {
+    text-align: center;
+    font-size: 60px;
+    color: red;
+    background: white;
+    width: 80px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    margin-left: 38%;
+    font-family: Poppins;
+    font-weight: bold;
+  }
+  .locationSelector {
+    position: relative;
+    top: -238px;
+    margin-left: 23.5%;
+    margin-right: 20%;
+    text-align: center;
+  }
+  .search {
+    position: absolute !important;
+    left: 5px;
+    margin: 2% 0px;
+    top: 73px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1150px) {
+  .locationDropdown {
+    height: 40px;
+    width: 310px;
+    color: gray;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    float: left;
+  }
+  .locationSelector {
+    position: relative;
+    top: -238px;
+    margin-left: 32.5%;
+    margin-right: 20%;
+    text-align: center;
+  }
+  .search {
+    position: absolute !important;
+    left: 5px;
+    margin: 1% 0px;
+    top: 73px !important;
+  }
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: absolute;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlider {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(8, 7, 7, 0.719);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  position:absolute;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.mySlider{
+  cursor: pointer;
+  position:absolute;
+  height: 5px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+
+}

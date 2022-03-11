@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body{
+            background-color:white;
+            color:black
+        }
+        .modecolor{
+            background-color:black;
+            color:white
+        }
+    </style>
+    <script>
+        function changeMode(){
+            var mybody = document.body;
+            mybody.classList.toggle('modecolor')
+        }
+    </script>
+      
+    <title>Zimato</title> <!-- Title of WebPage -->
+    <link rel="stylesheet" href="./home.css"> <!-- Linking External CSS -->
+    <link rel="icon" href="./Images/idli daosa.jpg">
+
+
+    <!-- Adding Icon to WebPage -->
+    <!-- Linking Bootstrap through CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+
+<header>
+    <button onClick="changeMode()">Change Mode</button>
+    <div id="icon">
+        <h4>Zimato</h4>
+    </div>
+    <div id="social">
+        <a href="https//www.facebook.com" target="_blank">
+            <img src="https://i.ibb.co/dtzG625/facebook.png" alt="Facebook" class="slogo"/>
+        </a>
+        <a href="https//www.instagram.com" target="_blank">
+            <img src="https://i.ibb.co/19H5LvT/insta.png" alt="Instagram" class="slogo"/>
+        </a>
+        <a href="https//www.youtube.com" target="_blank">
+            <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="youtube" class="slogo"/>
+        </a>
+    </div>
+</header>
+
+    <!-- Adding Wallpaper -->
+    <body>
+       
+
+    <div id="#myslider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel indicators">          
+         <div class="carousel inner">
+                <div class="carousel-item active">
+                   <img src="Images/homepageimg.png" class="d-block W-100" alt="a" width=100% height=300>
+               </div>
+                <div class="carousel-item">
+                    <img src="Images/idli daosa.jpg" class="d-block w-100"alt="a" width=100% height=300>
+                </div>
+                    <div class="carousel-item">
+                        <img src="Images/sandwich.jpg" class="d-block w-100"alt="a" width=100% height=300>
+                    </div>  
+                     <div class="carousel-item">
+                        <img src="Images/pizza.jpg" class="d-block w-100"alt="a" width=100% height=300>
+                    </div>  
+                    <div class="carousel-item">
+                        <img src="Images/franky.jpg" class="d-block w-100"alt="a" width=100% height=300>
+                    </div>  
+                    <div class="carousel-item">
+                       <img src="Images/juice.jpg" class="d-block w-100"alt="a" width=100% height=300>
+                    </div>  
+                     <div class="carousel-item">
+                        <img src="Images/icecream.jpg" class="d-block w-100"alt="a" width=100% height=300>
+                     </div> 
+         </div>
+       </div>  
+       
+   
+<!-- Adding Logo -->
+<div>
+    <div class="logo">
+       <p>Z!</p>
+    </div>
+    </div>
+    <div class="headings">
+        <center> Find the best restaurants, cafes, bars</center>
+        </div>
+        <div class="locationSelector">
+        <select class="locationDropdown">
+          <option value="0" selected disabled>Select</option>
+          <option value="1">Sarjapura,Bangalore</option>
+          <option value="1">HSR Layout,Bangalore</option>
+          <option value="1">Kormangala,Bangalore</option>
+          <option value="1">Bannerghata Road,Bangalore</option>
+        </select>
+        <div>
+          <input class="restaurantsinput" type="text" placeholder="Please Enter Restaurant Name" />
+          <span class="glyphicon glyphicon-search search"></span>
+        </div>
+        </div>
+        </div>
+    
+   
+        <div class="quicksearch">
+            <p class="quicksearchHeading">
+               Quick Searches
+            </p>
+            <p class="quicksearchSubHeading">
+               Discover restaurants by type of meal
+            </p>
+         </div>    
+         
+         <div class="container-fluid box">
+             <div class="row">     
+               <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="tileContainer">
+                         <div class="tileComponent1">
+                            <img src="./Images/breakfast.jpg" height=150 width=140 />
+                        </div>
+                     <div class="tileComponent2">
+                         <div class="componentHeading">
+                               Breakfast
+                         </div>
+                         <div class="componentSubHeading">
+                             Start your day with exclusive breakfast.
+                        </div>
+                     </div>
+                   </div>
+               </div>      
+                
+    <!-- Adding Items in Column -->
+    
+    <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="tileContainer">
+            <div class="tileComponent1">
+                <img src="./Images/dinner.png" height="150" width="140" />
+            </div>
+            <div class="tileComponent2">
+               <div class="componentHeading">
+                   Dinner
+              </div>
+            <div class="componentSubHeading">
+                Start your day with exclusive dinner.
+            </div>
+           </div>
+         </div>
+    </div>
+  <!-- Adding Items in Column -->
+  <div class="col-sm-12 col-md-12 col-lg-4">
+    <div class="tileContainer">
+        <div class="tileComponent1">
+           <img src="./Images/drinks.png" height="150" width="140" />
+        </div>
+    <div class="tileComponent2">
+           <div class="componentHeading">
+              Drinks
+           </div>
+        <div class="componentSubHeading">
+           Start your day with exclusive drinks.
+        </div>
+    </div>
+  </div>
+</div>
+  <!-- Adding Items in Column -->
+  <div class="col-sm-12 col-md-12 col-lg-4">
+    <div class="tileContainer">
+      <div class="tileComponent1">
+          <img src="./Images/lunch.jpg" height="150" width="140" />
+      </div>
+     <div class="tileComponent2">
+       <div class="componentHeading">
+           Lunch
+      </div>
+       <div class="componentSubHeading">
+        Start your day with exclusive lunch.
+      </div>
+    </div>
+ </div>
+</div>
+ <!-- Adding Items in Column -->
+ <div class="col-sm-12 col-md-12 col-lg-4">
+    <div class="tileContainer">
+      <div class="tileComponent1">
+         <img src="./Images/snacks.png" height="150" width="140" />
+     </div>
+    <div class="tileComponent2">
+       <div class="componentHeading">
+            Snacks
+       </div>
+       <div class="componentSubHeading">
+           Start your day with exclusive snacks.
+      </div>
+   </div>
+</div>
+</div>
+<!-- Adding Items in Column -->
+<div class="col-sm-12 col-md-12 col-lg-4">
+    <div class="tileContainer">
+       <div class="tileComponent1">
+          <img src="./Images/nightlife.png" height="150" width="140" />
+       </div>
+       <div class="tileComponent2">
+           <div class="componentHeading">
+               NightLife
+          </div>
+          <div class="componentSubHeading">
+                Start your day with exclusive nightlife.
+         </div>
+        </div>
+   </div>
+</div>
+</div>
+</div>
+</body>
+</html>
